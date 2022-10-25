@@ -1,0 +1,77 @@
+.center {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #3C2B57;
+    border: #3C2B57 solid 0.5px;
+}
+
+.active {
+	background-color: #3C2B57;
+	color: #D5D5F0;
+}
+
+#POP_MENU_BG {
+	position: absolute;
+	top: 0.0px;
+	left: 0.5px;
+	width: 1024.0px;
+	height: 768.0px;
+	z-index: 5;
+}
+#POP_MENU_AN_BOX {
+	position: absolute;
+	top: 32.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 250.0px;
+	z-index: 6;
+}
+#POP_MENU_BTN_LINK_HOME {
+	position: absolute;
+	top: 32.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 50.0px;
+	z-index: 7;
+}
+#POP_MENU_BTN_LINK_01 {
+	position: absolute;
+	top: 82.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 50.0px;
+	z-index: 8;
+}
+#POP_MENU_BTN_LINK_02 {
+	position: absolute;
+	top: 132.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 50.0px;
+	z-index: 9;
+}
+#POP_MENU_BTN_LINK_03 {
+	position: absolute;
+	top: 182.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 50.0px;
+	z-index: 10;
+}
+#POP_MENU_BTN_LINK_BULA {
+	position: absolute;
+	top: 232.5px;
+	left: 694.0px;
+	width: 297.5px;
+	height: 50.0px;
+	z-index: 11;
+}
+#POP_MENU_BTN_CLOSE {
+	position: absolute;
+	top: 0.0px;
+	left: 959.0px;
+	width: 65.0px;
+	height: 65.0px;
+	z-index: 12;
+}

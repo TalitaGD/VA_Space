@@ -1,0 +1,96 @@
+#BG {
+	position: absolute;
+	top: 0.0px;
+	left: -262.5px;
+	width: 1287.0px;
+	height: 770.0px;
+	z-index: 0;
+}
+#AN_BTN_NEXT {
+	position: absolute;
+	top: 668.5px;
+	left: 911.0px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 1;
+}
+#AN_BTN_PREV {
+	position: absolute;
+	top: 668.5px;
+	left: 51.0px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 2;
+}
+#AN_NUMBER {
+	position: absolute;
+	top: -13.0px;
+	left: 0.0px;
+	width: 278.0px;
+	height: 596.0px;
+	z-index: 3;
+}
+#AN_SOL {
+	position: absolute;
+	top: 75.0px;
+	left: 92.5px;
+	width: 420.0px;
+	height: 420.0px;
+	z-index: 4;
+}
+#AN_TT_03 {
+	position: absolute;
+	top: 108.5px;
+	left: 545.0px;
+	width: 342.5px;
+	height: 90.5px;
+	z-index: 5;
+}
+#AN_TXT_03 {
+	position: absolute;
+	top: 199.0px;
+	left: 545.0px;
+	width: 366.0px;
+	height: 359.5px;
+	z-index: 6;
+}
+#AN_BTN_YELLOW {
+	position: absolute;
+	top: 558.5px;
+	left: 545.0px;
+	width: 243.5px;
+	height: 66.5px;
+	z-index: 7;
+}
+#AN_BTN_REF {
+	position: absolute;
+	top: 38.5px;
+	left: 945.5px;
+	width: 48.0px;
+	height: 48.0px;
+	z-index: 8;
+}
+#POP_REF_BG {
+	position: absolute;
+	top: 0.0px;
+	left: 0.0px;
+	width: 1024.5px;
+	height: 768.0px;
+	z-index: 9;
+}
+#POP_REF_CNTT {
+	position: absolute;
+	top: 75.0px;
+	left: 68.5px;
+	width: 872.5px;
+	height: 621.0px;
+	z-index: 10;
+}
+#POP_REF_BTN_CLS {
+	position: absolute;
+	top: 38.5px;
+	left: 945.5px;
+	width: 48.0px;
+	height: 48.0px;
+	z-index: 11;
+}

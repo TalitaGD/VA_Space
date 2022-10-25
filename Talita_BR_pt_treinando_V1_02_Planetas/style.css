@@ -1,0 +1,136 @@
+#BG {
+	position: absolute;
+	top: 0.0px;
+	left: -262.5px;
+	width: 1287.0px;
+	height: 770.0px;
+	z-index: 0;
+}
+#POP_TAB01_AN_BOX01 {
+	position: absolute;
+	top: 173.0px;
+	left: 70.5px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 1;
+}
+#POP_TAB01_AN_TERRA {
+	position: absolute;
+	top: 92.5px;
+	left: 97.5px;
+	width: 218.0px;
+	height: 218.0px;
+	z-index: 2;
+}
+#POP_TAB01_AN_BOX02 {
+	position: absolute;
+	top: 173.0px;
+	left: 368.5px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 3;
+}
+#POP_TAB01_AN_METEORO {
+	position: absolute;
+	top: 83.0px;
+	left: 390.5px;
+	width: 227.5px;
+	height: 227.5px;
+	z-index: 4;
+}
+#POP_TAB01_AN_BOX03 {
+	position: absolute;
+	top: 173.0px;
+	left: 671.0px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 5;
+}
+#POP_TAB01_AN_LUA {
+	position: absolute;
+	top: 96.0px;
+	left: 700.5px;
+	width: 211.5px;
+	height: 211.5px;
+	z-index: 6;
+}
+#POP_TAB01_AN_BTN_NEXT_01 {
+	position: absolute;
+	top: 357.0px;
+	left: 927.5px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 7;
+}
+#POP_TAB02_AN_BOX01 {
+	position: absolute;
+	top: 173.0px;
+	left: 75.1px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 8;
+}
+#POP_TAB02_AN_VENUS {
+	position: absolute;
+	top: 91.5px;
+	left: 108.6px;
+	width: 197.0px;
+	height: 197.0px;
+	z-index: 9;
+}
+#POP_TAB02_AN_BOX02 {
+	position: absolute;
+	top: 173.0px;
+	left: 373.1px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 10;
+}
+#POP_TAB02_AN_STAR {
+	position: absolute;
+	top: 84.5px;
+	left: 416.6px;
+	width: 200.5px;
+	height: 200.5px;
+	z-index: 11;
+}
+#POP_TAB02_AN_BOX03 {
+	position: absolute;
+	top: 173.0px;
+	left: 675.6px;
+	width: 271.5px;
+	height: 398.5px;
+	z-index: 12;
+}
+#POP_TAB02_AN_MARTE {
+	position: absolute;
+	top: 43.0px;
+	left: 671.4px;
+	width: 277.9px;
+	height: 277.9px;
+	z-index: 13;
+}
+#POP_TAB02_AN_BTN_NEXT_01 {
+	position: absolute;
+	top: 357.0px;
+	left: 39.0px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 14;
+}
+#AN_BTN_NEXT {
+	position: absolute;
+	top: 668.5px;
+	left: 911.0px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 15;
+}
+#AN_BTN_PREV {
+	position: absolute;
+	top: 668.5px;
+	left: 51.0px;
+	width: 54.5px;
+	height: 54.5px;
+	z-index: 16;
+}

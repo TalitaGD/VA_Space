@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Talita_BR_pt_treinando_V1_01_Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="../shared/menu/menu.css" rel="stylesheet" type="text/css"/>
+	<link href="../shared/css/style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" charset="utf-8" src="../shared/js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../shared/js/jquery.gsap.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../shared/js/TweenMax.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../shared/js/veeva-library.js"></script>
+	<script>
+		$(document).ready(function() {
+			// Initiate Menu
+			initMenu();
+
+			// Main Timeline
+			var tl = new TimelineMax();
+			tl.play()
+			.to($("#animate, #popups, #menu"), 	.3, { css:{ opacity: 1 } }, 0.3)
+			.from($("#AN_NUVEM"), 				.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_FOGUETE"),				.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_METEORO_01"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_STAR_03"), 			.3, { css:{ opacity: 0, } }, )
+			.from($("#AN_STAR_04"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_PLANETA_01"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_LUA"), 				.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_ASTRONAUTA"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_TT"),  				.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_TXT"), 				.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_PLANETA"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_BTN_VERDE"), 			.3, { css:{ opacity: 0, scale: .6 } }, "-=.2")
+			.from($("#AN_PLANETA_02"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+			.from($("#AN_STAR_05"), 			.3, { css:{ opacity: 0, left: "-=30" } }, "-=.2")
+
+			TweenMax.to($("#AN_FOGUETE"), 			6, { rotation: 360, repeat: -1, ease: Linear.easeNone })
+			TweenMax.to($("#AN_PLANETA"), 			8, { rotation: -360, repeat: -1, ease: Linear.easeNone })
+			TweenMax.to($("#AN_STAR_03"), 			.8,{ scale: .6, repeat: -1, yoyo: true, yoyoEase: Power2.easeOut })
+			TweenMax.to($("#AN_STAR_04"), 			.6,{ scale: .6, repeat: -1, yoyo: true, yoyoEase: Power2.easeOut })		
+			TweenMax.to($("#AN_STAR_05"), 			.4,{ scale: .6, repeat: -1, yoyo: true, yoyoEase: Power2.easeOut })
+			TweenMax.to($("#AN_PLANETA_01"), 		8, { rotation: 360, repeat: -1, ease: Linear.easeNone })
+			TweenMax.to($("#AN_PLANETA_02"), 		8, { rotation: -360, repeat: -1, ease: Linear.easeNone })
+			
+
+		})
+	</script>
+	<script type="text/javascript" charset="utf-8" src="../shared/menu/menu.js"></script>
+	<script type="text/javascript" charset="utf-8" src="../shared/js/main.js"></script>
+</head>
+<body>
+	<div id="main">
+		<img id="BG" src="images/BG.png">
+		<div id="animate">
+			<img id="AN_NUVEM" src="images/AN_NUVEM.png">
+			<img id="AN_FOGUETE" src="images/AN_FOGUETE.png">
+			<img id="AN_METEORO_01" src="images/AN_METEORO_01.png">
+			<img id="AN_STAR_03" src="images/AN_STAR_03.png">
+			<img id="AN_STAR_04" src="images/AN_STAR_04.png">
+			<img id="AN_PLANETA_01" src="images/AN_PLANETA_01.png">
+			<img id="AN_LUA" src="images/AN_LUA.png">
+			<img id="AN_ASTRONAUTA" src="images/AN_ASTRONAUTA.png">
+			<img id="AN_TT" src="images/AN_TT.png">
+			<img id="AN_TXT" src="images/AN_TXT.png">
+			<img id="AN_PLANETA" src="images/AN_PLANETA.png">
+			<img id="AN_BTN_VERDE" src="images/AN_BTN_VERDE.png" data-link-veeva="Talita_BR_pt_treinando_V1_02_Planetas">
+			<img id="AN_PLANETA_02" src="images/AN_PLANETA_02.png">
+			<img id="AN_STAR_05" src="images/AN_STAR_05.png">
+		</div>
+		<div id="static"></div>
+		<div id="popups"></div>
+		<div id="menu"></div>
+		<div id="overlay"></div>
+	</div>
+</body>
+</html>

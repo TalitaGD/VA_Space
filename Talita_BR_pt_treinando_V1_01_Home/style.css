@@ -1,0 +1,120 @@
+#BG {
+	position: absolute;
+	top: 0.0px;
+	left: 0.0px;
+	width: 1024.5px;
+	height: 768.0px;
+	z-index: 0;
+}
+#AN_NUVEM {
+	position: absolute;
+	top: 406.5px;
+	left: -1.0px;
+	width: 396.5px;
+	height: 366.5px;
+	z-index: 1;
+}
+#AN_FOGUETE {
+	position: absolute;
+	top: 146.5px;
+	left: 310.4px;
+	width: 480.1px;
+	height: 475.5px;
+	z-index: 2;
+}
+#AN_METEORO_01 {
+	position: absolute;
+	top: 197.0px;
+	left: 825.0px;
+	width: 58.0px;
+	height: 58.0px;
+	z-index: 3;
+}
+#AN_STAR_03 {
+	position: absolute;
+	top: 545.5px;
+	left: 908.0px;
+	width: 52.0px;
+	height: 52.0px;
+	z-index: 4;
+}
+#AN_STAR_04 {
+	position: absolute;
+	top: 49.5px;
+	left: 424.0px;
+	width: 52.0px;
+	height: 52.0px;
+	z-index: 5;
+}
+#AN_PLANETA_01 {
+	position: absolute;
+	top: 323.8px;
+	left: 847.8px;
+	width: 120.4px;
+	height: 120.4px;
+	z-index: 6;
+}
+#AN_LUA {
+	position: absolute;
+	top: 107.0px;
+	left: 239.5px;
+	width: 61.0px;
+	height: 61.0px;
+	z-index: 7;
+}
+#AN_ASTRONAUTA {
+	position: absolute;
+	top: 603.0px;
+	left: 714.0px;
+	width: 111.0px;
+	height: 111.0px;
+	z-index: 8;
+}
+#AN_TT {
+	position: absolute;
+	top: 493.0px;
+	left: 53.5px;
+	width: 230.0px;
+	height: 150.0px;
+	z-index: 9;
+}
+#AN_TXT {
+	position: absolute;
+	top: 545.0px;
+	left: 53.0px;
+	width: 243.5px;
+	height: 150.0px;
+	z-index: 10;
+}
+#AN_PLANETA {
+	position: absolute;
+	top: 214.0px;
+	left: 373.5px;
+	width: 340.5px;
+	height: 340.5px;
+	z-index: 11;
+}
+#AN_BTN_VERDE {
+	position: absolute;
+	top: 658.5px;
+	left: 41.0px;
+	width: 243.5px;
+	height: 66.5px;
+	z-index: 12;
+}
+#AN_PLANETA_02 {
+	position: absolute;
+	top: 168.0px;
+	left: 41.1px;
+	width: 120.4px;
+	height: 120.4px;
+	z-index: 13;
+}
+#AN_STAR_05 {
+	position: absolute;
+	top: 80.5px;
+	left: 908.0px;
+	width: 52.0px;
+	height: 52.0px;
+	z-index: 14;
+}
